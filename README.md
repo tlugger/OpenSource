@@ -3,7 +3,7 @@
 
 This repository focuses on a jupyter notebook setup to perform basic data analysis
 
-Dependancies:
+**Dependancies:**
 * Python3
 * Jupyter
 * IPython 
@@ -12,7 +12,7 @@ Dependancies:
 * Numpy
 * MatPlotLib
 
-How to run:
-'''
+**How to run:**
+```
 jupyter notebook BankMining.ipynb
-'''
+```
