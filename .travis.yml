@@ -14,4 +14,4 @@ before_script:
   - jupyter nbconvert --to script 'BankMining.ipynb'
 
 script:
-  - BankMining.py
+  - python BankMining.py
