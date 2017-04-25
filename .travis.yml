@@ -1,7 +1,6 @@
 language: python
 
 python: 
-  - "2.7"
   - "3.5"
 
 install:
@@ -11,6 +10,8 @@ install:
   - pip install pandas
   - pip install scipy
 
-script:
+before_script:
   - jupyter nbconvert --to script 'BankMining.ipynb'
+
+script:
   - BankMining.py
