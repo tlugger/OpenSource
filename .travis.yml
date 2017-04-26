@@ -18,3 +18,4 @@ before_script:
 
 script:
   - python BankMining.py
+  - python testBankMining.py
